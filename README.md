@@ -32,4 +32,4 @@ git push origin master    " have error: git pull --rebase origin main  or git pu
 git push origin master
 
 
-Merge 2 branch: git merge main master
+Merge 2 branch: git merge main master   ( open github accept merge request)
