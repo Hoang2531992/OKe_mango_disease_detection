@@ -30,3 +30,6 @@ git checkout -b master
 git push origin master    " have error: git pull --rebase origin main  or git pull --rebase origin master "
 
 git push origin master
+
+
+Merge 2 branch: git merge main master
