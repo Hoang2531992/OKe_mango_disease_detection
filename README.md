@@ -38,6 +38,6 @@ git checkout -b master
 //git push origin master    " have error: git pull --rebase origin main  or git pull --rebase origin master "
 
 git push origin master
+git merge main master   
 
-
-Merge 2 branch: git merge main master   ( open github accept merge request)
+//( open github accept merge request) Merge 2 branch: 
