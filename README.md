@@ -6,28 +6,36 @@ https://www.freecodecamp.org/news/error-failed-to-push-some-refs-to-how-to-fix-i
 
 note: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
 
+
+???????????????????????????????????????????????????????????   Làm theo các bước sau ??????????????????????????????????????????
+Mở Terminal:
+
 ssh-keygen -t rsa -C "hoang2531992@gmail.com"
 
-macOS:
 
-pbcopy < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_rsa.pub   
 
 Copy the public SSH key to GitHub
 Copy the contents of the to your SSH keys to your GitHub account settings (https://github.com/settings/keys).
 
 Test the SSH key:
+
 ssh -T git@github.com
+
+git init
 
 git add -A 
 
 git commit -am "Update README.md"
 
-** create new brand: (master) "https://www.freecodecamp.org/news/error-src-refspec-master-does-not-match-any-how-to-fix-in-git/"
-You can create a remote master branch on a Git managed website (like GitHub) or you can do that directly from your terminal like this:
+git remote add origin <repository-URL>   URL copy từ URL trong repository mới tạo, mới chỉ có file Readme.txt
+
+//** create new brand: (master) "https://www.freecodecamp.org/news/error-src-refspec-master-does-not-match-any-how-to-fix-in-git/"
+//You can create a remote master branch on a Git managed website (like GitHub) or you can do that directly from your terminal like this:
 
 git checkout -b master
 
-git push origin master    " have error: git pull --rebase origin main  or git pull --rebase origin master "
+//git push origin master    " have error: git pull --rebase origin main  or git pull --rebase origin master "
 
 git push origin master
 
